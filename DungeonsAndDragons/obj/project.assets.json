@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/DungeonsAndDragons.csproj",
+      "projectUniqueName": "/Users/elinorehagman/Documents/portfolio_website/DungeonsAndDragons/DungeonsAndDragons/DungeonsAndDragons.csproj",
       "projectName": "DungeonsAndDragons",
-      "projectPath": "/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/DungeonsAndDragons.csproj",
+      "projectPath": "/Users/elinorehagman/Documents/portfolio_website/DungeonsAndDragons/DungeonsAndDragons/DungeonsAndDragons.csproj",
       "packagesPath": "/Users/elinorehagman/.nuget/packages/",
-      "outputPath": "/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/obj/",
+      "outputPath": "/Users/elinorehagman/Documents/portfolio_website/DungeonsAndDragons/DungeonsAndDragons/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/elinorehagman/.config/NuGet/NuGet.Config"

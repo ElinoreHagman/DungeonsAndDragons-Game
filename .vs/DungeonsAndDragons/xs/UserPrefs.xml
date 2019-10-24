@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="DungeonsAndDragons/Program.cs">
     <Files>
       <File FileName="DungeonsAndDragons/Program.cs" Line="42" Column="54" />
-      <File FileName="DungeonsAndDragons/Treasure.cs" Line="1" Column="1" />
+      <File FileName="DungeonsAndDragons/Treasure.cs" />
       <File FileName="DungeonsAndDragons/Combat.cs" />
       <File FileName="DungeonsAndDragons/Enemy.cs" />
-      <File FileName="DungeonsAndDragons/Player classes/Player.cs" Line="5" Column="1" />
+      <File FileName="DungeonsAndDragons/Player classes/Player.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
