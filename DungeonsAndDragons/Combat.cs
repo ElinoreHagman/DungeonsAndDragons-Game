@@ -25,13 +25,13 @@ namespace DungeonsAndDragons
                 // GIVES THE PLAYER THE OPTIONS TO ATTACK OR DEFEND THE MONSTER
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.Write("\nDo you ATTACK or DEFEND? ");
-                string action = Console.ReadLine();
+                string action = Console.ReadLine().ToUpper();
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.ForegroundColor = ConsoleColor.Gray;
                 while (action != "DEFEND" && action != "ATTACK")
                 {
                     Console.Write("You can only ATTACK or DEFEND. What do you do?: ");
-                    action = Console.ReadLine();
+                    action = Console.ReadLine().ToUpper();
                 }
                 Console.ForegroundColor = ConsoleColor.Red;
                 SystemWait();
@@ -80,14 +80,14 @@ namespace DungeonsAndDragons
                 // GIVES THE PLAYER THE OPTIONS TO ATTACK OR DEFEND THE MONSTER
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.Write("\nDo you ATTACK or DEFEND? ");
-                string action = Console.ReadLine();
+                string action = Console.ReadLine().ToUpper();
                 Console.ForegroundColor = ConsoleColor.Red;
 
                 Console.ForegroundColor = ConsoleColor.Gray;
                 while (action != "DEFEND" && action != "ATTACK")
                 {
                     Console.Write("You can only ATTACK or DEFEND. What do you do?: ");
-                    action = Console.ReadLine();
+                    action = Console.ReadLine().ToUpper();
                 }
                 Console.ForegroundColor = ConsoleColor.Red;
                 SystemWait();
