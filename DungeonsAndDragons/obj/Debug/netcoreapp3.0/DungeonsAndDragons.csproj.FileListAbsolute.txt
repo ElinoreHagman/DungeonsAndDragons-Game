@@ -1,0 +1,11 @@
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/bin/Debug/netcoreapp3.0/DungeonsAndDragons
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/bin/Debug/netcoreapp3.0/DungeonsAndDragons.deps.json
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/bin/Debug/netcoreapp3.0/DungeonsAndDragons.runtimeconfig.json
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/bin/Debug/netcoreapp3.0/DungeonsAndDragons.runtimeconfig.dev.json
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/bin/Debug/netcoreapp3.0/DungeonsAndDragons.dll
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/bin/Debug/netcoreapp3.0/DungeonsAndDragons.pdb
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/obj/Debug/netcoreapp3.0/DungeonsAndDragons.csprojAssemblyReference.cache
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/obj/Debug/netcoreapp3.0/DungeonsAndDragons.AssemblyInfoInputs.cache
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/obj/Debug/netcoreapp3.0/DungeonsAndDragons.AssemblyInfo.cs
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/obj/Debug/netcoreapp3.0/DungeonsAndDragons.dll
+/Users/elinorehagman/Projects/DungeonsAndDragons/DungeonsAndDragons/obj/Debug/netcoreapp3.0/DungeonsAndDragons.pdb
