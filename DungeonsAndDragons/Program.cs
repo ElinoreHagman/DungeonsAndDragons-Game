@@ -16,7 +16,6 @@ namespace DungeonsAndDragons
             Console.WriteLine("DUNGEON CRAWLER GAME\n");
             DateTime start = DateTime.Now;
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("In this game your input needs to be written out in CAPTITAL LETTERS.");
             Console.Write("What is your name?: ");
             string inputName = Console.ReadLine();
 
@@ -40,11 +39,11 @@ namespace DungeonsAndDragons
             Console.Write("or " + allProfessions[amountOfProfs]);
             Console.Write(": ");
 
-            string inputProfession = Console.ReadLine();
+            string inputProfession = Console.ReadLine().ToUpper();
             while (!professions.ContainsKey(inputProfession))
             {
                 Console.Write("You can't be that, choose from what's avaliable: ");
-                inputProfession = Console.ReadLine();
+                inputProfession = Console.ReadLine().ToUpper();
             }
 
             professions.TryGetValue(inputProfession, out Player value);
@@ -65,12 +64,12 @@ namespace DungeonsAndDragons
             Console.WriteLine("After taking a deep breath you continue on your road towards the castle.");
             Console.WriteLine("You get to a crossroad and you can't remember which way you're supposed to take.");
             Console.WriteLine("Do you go to LEFT, where the forest gets a bit darker, or RIGHT, where you at least can hear some birds chirp?");
-            string path = Console.ReadLine();
+            string path = Console.ReadLine().ToUpper();
 
             while (path != "RIGHT" && path != "LEFT")
             {
                 Console.Write("You can only go RIGHT or LEFT. Which way do you choose?: ");
-                path = Console.ReadLine();
+                path = Console.ReadLine().ToUpper();
             }
 
             while (path == "LEFT")
@@ -88,12 +87,12 @@ namespace DungeonsAndDragons
             PathChosen(path);
             Console.WriteLine("After walking for a while you see the sky a bit more above the trees, and soon you get out of the forest.");
             Console.WriteLine("You get to a little farm and wonders if the people living there are nice. Do you KNOCK on the door, or WALK past it?");
-            path = Console.ReadLine();
+            path = Console.ReadLine().ToUpper();
 
             while (path != "KNOCK" && path != "WALK")
             {
                 Console.Write("You can only KNOCK on door or WALK past the house. What do you choose?: ");
-                path = Console.ReadLine();
+                path = Console.ReadLine().ToUpper();
             }
 
             while (path == "KNOCK")
@@ -118,7 +117,7 @@ namespace DungeonsAndDragons
             Console.WriteLine("You pick up the pace and soon you get near the castle town.");
             Console.WriteLine("From where you are the town seems lively and ordinary, but you are unsure how you should approach.");
             Console.WriteLine("Do you go through the castle town SEWERS or through the TOWN in hope of finding some potions or weapons?");
-            path = Console.ReadLine();
+            path = Console.ReadLine().ToUpper();
 
             while (path != "TOWN" && path != "SEWERS")
             {
@@ -148,7 +147,7 @@ namespace DungeonsAndDragons
             Console.WriteLine("No monsters are nearby. You walk past a burnt down patio and ash is covering the ground and air.");
             Console.WriteLine("You hear a loud scream from the top of the castle.");
             Console.Write("Do you take the RIGHT tower stairs or the LEFT tower stairs?: ");
-            path = Console.ReadLine();
+            path = Console.ReadLine().ToUpper();
 
             while (path != "RIGHT" && path != "LEFT")
             {

@@ -9,7 +9,7 @@ namespace DungeonsAndDragons
             Console.ForegroundColor = ConsoleColor.Red;
             Enemy enemy = new Enemy();
             Console.WriteLine("You encounter a " + enemy.MonsterName + "!");
-
+            SystemWait();
             do
             {
                 // CHECKS IF THE MONSTER GETS TO START THE TURN
@@ -27,7 +27,6 @@ namespace DungeonsAndDragons
                 Console.Write("\nDo you ATTACK or DEFEND? ");
                 string action = Console.ReadLine();
                 Console.ForegroundColor = ConsoleColor.Red;
-
                 Console.ForegroundColor = ConsoleColor.Gray;
                 while (action != "DEFEND" && action != "ATTACK")
                 {
@@ -35,6 +34,7 @@ namespace DungeonsAndDragons
                     action = Console.ReadLine();
                 }
                 Console.ForegroundColor = ConsoleColor.Red;
+                SystemWait();
 
                 if (action == "DEFEND")
                 {
@@ -90,6 +90,7 @@ namespace DungeonsAndDragons
                     action = Console.ReadLine();
                 }
                 Console.ForegroundColor = ConsoleColor.Red;
+                SystemWait();
 
                 if (action == "DEFEND")
                 {
@@ -106,6 +107,7 @@ namespace DungeonsAndDragons
             // IF ENEMY OR PLAYER DIES THE COMBAT ENDS
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Combat is over.");
+            SystemWait();
             new Treasure().MaybeFindCoins(player);
             player.CheckIfChangeLevel();
             Console.WriteLine("");
@@ -117,6 +119,15 @@ namespace DungeonsAndDragons
             Random rnd = new Random();
             int randomNumber = rnd.Next(startNumber, endNumber);
             return randomNumber;
+        }
+
+        public void SystemWait()
+        {
+            Console.Write(".");
+            System.Threading.Thread.Sleep(300);
+            Console.Write(".");
+            System.Threading.Thread.Sleep(300);
+            Console.WriteLine(".");
         }
     }
 }
