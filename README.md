@@ -1,5 +1,5 @@
 # Dungeons-And-Dragons
-Super short experimental game in the terminal, autumn 2019
+Super short experimental game in the terminal, autumn 2019. First programming project I did outside of school.
 
 The player chooses what class to play as, and goes after that on a short adventure with a couple of
 right/left choices and enemy battles, while trying to get to the end boss.
